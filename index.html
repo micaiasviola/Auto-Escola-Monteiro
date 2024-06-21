@@ -31,14 +31,14 @@
 
     <!-- Corpo do Site -->
     <main>
-        <section id="home">
+        <!--<section id="home">
             <h1>Bem-vindo à Auto Escola Monteiro</h1>
             <p>Sua melhor escolha para aprender a dirigir com segurança e confiança.</p>
         </section>
         <section id="about">
             <h2>Sobre Nós</h2>
             <p>Na Auto Escola Monteiro, oferecemos aulas práticas e teóricas de alta qualidade para ajudá-lo a obter sua habilitação de motorista.</p>
-        </section>
+        </section>-->
         <div class="services-contact">
             <section id="services">
                 <h2>Nossos Serviços</h2>
@@ -51,8 +51,8 @@
             </section>
             <section id="contact">
                 <h2>Contato</h2>
-                <a href="www.whatsapp.com" id="contato"><img target="blank" src="imagens/whatsaapplogo.svg" alt="Whatsapp"><p id="contato">(12) 99790-1291 </p></a>
-                <br><a href="www.whatsapp.com" id="insta"><img target="blank" src="imagens/whatsaapplogo.svg" alt="Whatsapp"><p id="insta">(12) 99790-1291 </p></a>
+                <a href="www.whatsapp.com" id="contato"><img target="_blank" src="imagens/whatsaapplogo.svg" alt="Whatsapp"><p id="contato">(12) 99790-1291 </p></a>
+                <br><a href="www.instagram.com/autoescola.monteiro" id="insta"><img target="_blank" src="imagens/whatsaapplogo.svg" alt="Instagram"><p id="insta">Instagram </p></a>
 
                 <p>Email: contato@autoescolamonteiro.com</p>
             </section>
@@ -211,6 +211,13 @@ footer {
 }
 
 /* Estilos para alinhar serviços e contato lado a lado e centralizá-los */
+#services li{
+    display:flex;
+    justify-content:baseline;
+    text-align: center;
+    text-size-adjust: 20px;
+    font: italic small-caps 900 12px arial;
+}
 .services-contact {
     display: flex;
     justify-content: space-between;
@@ -219,7 +226,7 @@ footer {
     margin: 0 auto; /* Centraliza o contêiner horizontalmente */
     max-width: 800px; /* Define uma largura máxima para o contêiner */
     padding: 20px;
-    background-color: #fffd7c;
+    background-color: #fffb00;
 
 }
 
